@@ -1,0 +1,109 @@
+# Environment & Credentials
+.env
+.env.local
+.env.*.local
+creds.txt
+creds.pkl
+*.credentials
+credentials.json
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-workspace
+*.sublime-project
+
+# Pickle & Cache Files
+*.pkl
+*.pickle
+*.cache
+
+# Large Data Files
+*.xlsx
+*.xls
+~$*.xlsx
+~$*.xls
+*.csv
+
+# Log Files
+*.log
+logs/
+
+# Output & Temporary Files
+outputs/
+temp/
+tmp/
+*.tmp
+*.temp
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Test Coverage
+.coverage
+.pytest_cache/
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Project-specific large/generated files
+otif_autom/dfs_tables.pkl
+otif_autom/dfs_excels.pkl
+otif_autom/final_df.pkl
+otif_autom/dod_final_df.pkl
+otif_autom/tat-calculator/tat_calculation.log
+otif_autom/tat-calculator/ts_big.xlsx
+otif_autom/tat-calculator/ts_big copy.xlsx
+otif_autom/tat-calculator/ts_small.xlsx
+otif_autom/tat-calculator/ts_small_1.xlsx
+otif_autom/tat-calculator/outputs/
